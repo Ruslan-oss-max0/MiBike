@@ -1,0 +1,41 @@
+/* #region page */
+
+body {
+  margin: 0;
+}
+
+/* #endregion */
+
+/* #region header */
+.header {
+  box-sizing: border-box;
+  padding: 24px 20px 88px;
+  height: 100vh;
+  background-image: url(images/header-bg-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__top {
+    
+}
+
+/* #endregion */
+
+/* #region icon */
+
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone {
+  background-image: url(/images/phone-icon.png);
+}
+
+.icon--menu {
+  background-image: url(/images/burger-menu-icon.png);
+}
+
+/* #endregion */
